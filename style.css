@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.right > img {
+  width: 400px;
+}
+
+img {
+  width: 220px;
+  height: 300px;
+}
+
+.container {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  flex-basis: 1;
+}
+
+.main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero > button {
+  width: 120px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  margin: 5px 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.imgs {
+  padding: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img > p {
+  margin: 10px 0;
+  width: 220px;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 500px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 16px;
+}
+
+.quote .thor {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.action {
+  padding: 100px 200px;
+}
+
+.box {
+  width: auto;
+  height: 150px;
+  padding: 0 100px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call {
+  font-size: 18px;
+}
+
+.call > p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 3px 0;
+}
+
+.box > button {
+  width: 120px;
+  height: 40px;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.footer {
+  height: 100px;
+  color: #f9faf8;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
